@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+      <link rel="stylesheet" href='{{url_for("static",filename="index.css")}}' />
+      <title>What Next</title>
+  </head>
+  <body>
+    <div class="content">
+      <div>
+        <nav class="navbar">
+          <a class="active" href="/index">Home</a>
+          <a href="/after10th">After 10th</a>
+          <a href="/after12th">After 12th</a>
+          <a href="/afterUG">After UG</a>
+          <a href="/exams">Exams</a>
+          <a href="/more">More</a>
+        </nav>
+      </div>
+      <div id="mySidenav" class="sidenav">
+        <a href="/register" id="Register">Register</a>
+        <a href="/about" id="About">About</a>
+        <a href="/quotes" id="Quotes">Quotes</a>
+        <a href="/faq" id="FAQs">SAQ</a>
+      </div>      
+      <div>
+        <img src="/static/img.jpg.jpg" class="center">
+      </div>
+      <div class="col-a">Explore All The Courses</div>
+      <div class="col-b">Choose The Right Course With "WHAT NEXT"</div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href='{{url_for("static",filename="register.css")}}' />
+    <title>register</title>
+  </head>
+  <body>
+    <form method="POST" action="register" style="max-width:500px;margin:auto">
+      <h2>Register Form</h2>
+      <div class="input-container">
+        <i class="fa fa-user icon"></i>
+        <input class="input-field" type="text" placeholder="Username" name="usrnm">
+      </div>
+      <div class="input-container">
+        <i class="fa fa-envelope icon"></i>
+        <input class="input-field" type="text" placeholder="Email" name="email">
+      </div>
+      <div class="input-container">
+        <i class="fa fa-phone icon"></i>
+        <input class="input-field" type="text" placeholder="Phone Number " name="phno">
+      </div>
+      <div class="input-container">
+        <i class="fa fa-graduation-cap icon"></i>
+        <input class="input-field" type="text" placeholder="Qualification" name="qualification">
+      </div>
+      <button type="submit" class="btn">Register</button>
+      <h3>Register to get updates from our site</h3>
+      <h2>THANK YOU</h2>
+    </form>
+  </body>
+</html>

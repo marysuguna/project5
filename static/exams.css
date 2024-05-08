@@ -1,0 +1,54 @@
+.A{background-image:linear-gradient(to bottom right,#9FE2BF,#ECFFDC,#96DED1);
+    border-color:outset black;
+    border-style:double;
+    border-width:10px;
+    padding:20px;
+   }
+ .B{background-color:darkslategray;
+    color:ivory;
+    text-align:center;
+    font-size:xx-large;
+    border-radius:10px;
+    padding:10px;
+   }
+ .C{background-color:rgb(4,104,71);
+    color:ivory;
+    text-align:left;
+    font-size:x-large;
+    display:inline-block;
+    border-radius:10px;
+    padding:5px;
+   }
+ .D{
+    font-size:25px;
+   }
+ .E{
+    font-size:25px;
+   }
+   .navbar {
+    width: 100%;
+    background-color: rgb(4, 104, 71);
+    overflow: auto;
+    font-weight:bolder;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+  }
+  .navbar a {
+    float: left;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 17px;
+    width: 15%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+    text-align: center; /* If you want the text to be centered */
+  }
+  .navbar a:hover {
+    background-color: #000;
+  }
+  .apple{
+    margin-left: 1170px;
+    margin-right: auto;
+    position: fixed;
+  }

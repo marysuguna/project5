@@ -1,0 +1,23 @@
+.h{
+    background:linear-gradient(to bottom right,lightgreen,mediumaquamarine,lightgreen);
+    border-color:outset black;
+    border-style:double;
+    border-width:10px;
+    padding:20px;
+}
+.i{
+    font-size: 25px;
+}
+.z{background-color:darkslategray;
+    color:rgb(249, 252, 252);
+    text-align:center;
+    font-size:40px;
+    border-radius:10px;
+    padding:10px;
+}
+.apple{
+    margin-left: 1100px;
+    margin-right: auto;
+    position: fixed;
+    display: inline-flex;
+  }
