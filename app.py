@@ -91,7 +91,7 @@ def register():
 
         print(message)
 
-        return render_template('index.html')
+        return "registration successfull"
     return render_template('register.html')
     
     
